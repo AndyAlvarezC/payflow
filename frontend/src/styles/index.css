@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background-color: #09090B;
+  min-height: 100vh;
+  color: white;
+}
+
+  .text-metallic-gradient {
+  background: linear-gradient(to top, white, #d1d5db, #f3f4f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+}
