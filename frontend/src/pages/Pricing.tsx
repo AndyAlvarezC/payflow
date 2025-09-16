@@ -21,8 +21,8 @@ export default function Pricing() {
 
         <div className="w-[100%] mt-16 text-center">
           <div className="inline-flex items-center gap-4 bg-slate-800/80 backdrop-blur-sm rounded-full px-8 py-4 shadow-lg border border-slate-700">
-            <Shield className="w-6 h-6 text-green-400" />
-            <span className="text-slate-300 font-medium">
+            <Shield className="w-20 h-20 md:w-6 md:h-6 text-green-400" />
+            <span className="text-slate-300 font-medium text-sm">
               Todos los planes incluyen encriptación de nivel bancario y
               cumplimiento GDPR
             </span>
@@ -32,7 +32,7 @@ export default function Pricing() {
         <div className="mt-12 text-center">
           <button className="text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-2 transition-colors cursor-pointer">
             ¿Tienes preguntas? Consulta nuestras FAQ
-            <ArrowRight className="w-4 h-4" />
+            <ArrowRight className="w-6 h-6 md:w-4 md:h-4" />
           </button>
         </div>
       </div>

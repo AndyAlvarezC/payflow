@@ -4,6 +4,7 @@ import Highlights from "./pages/Highlights";
 import Trust from "./pages/Trust";
 import Demo from "./pages/Demo";
 import Pricing from "./pages/Pricing";
+import Footer from "./pages/Footer";
 import "./styles/index.css";
 
 
@@ -17,6 +18,7 @@ function App() {
       <Trust />
       <Demo />
       <Pricing />
+      <Footer />
     </>
   );
 }
