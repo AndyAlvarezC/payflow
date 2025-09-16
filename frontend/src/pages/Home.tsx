@@ -1,9 +1,9 @@
 import Button from "../components/Button"
-import Card from "../components/Card";
+import CreditCard from "../components/CreditCard";
 
 export default function Home() {
   return (
-      <main className="pt-24 md:pt-48 flex flex-col items-center justify-center text-center relative z-10">
+      <main id="home" className="pt-24 md:pt-48 flex flex-col items-center justify-center text-center relative z-10">
         <h1
           className="text-3xl md:text-5xl font-extrabold leading-tight text-metallic-gradient"
         >
@@ -13,7 +13,7 @@ export default function Home() {
           Visualiza y controla tus finanzas de manera rápida, segura y sencilla.
         </h2>
 
-        <Card />
+        <CreditCard />
 
         <div className=" md:pt-12">
           <Button text="Comienza Ahora" className="w-60 h-20 text-lg" />

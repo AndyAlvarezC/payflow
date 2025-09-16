@@ -6,7 +6,7 @@ type CardTrustTypes = {
   textClassName?: string
 };
 
-export default function CardTrust({
+export default function PartnersCard({
   logo,
   text,
   textClassName,

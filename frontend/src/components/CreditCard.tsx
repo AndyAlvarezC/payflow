@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card: React.FC = () => {
+const CreditCard: React.FC = () => {
   return (
     <div className="relative w-full max-w-4xl mx-auto h-96 flex items-center justify-center">
       <div className="relative z-10 group">
@@ -137,4 +137,4 @@ const Card: React.FC = () => {
   );
 };
 
-export default Card;
+export default CreditCard;

@@ -2,9 +2,11 @@ import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import logo from "../assets/logo/logo.svg";
 import Button from "../components/Button";
+import useScrollTo from "../hooks/useScrollTo";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const scrollTo = useScrollTo()
 
   return (
     <>
@@ -35,17 +37,50 @@ export default function Header() {
 
           {/* === Menú desktop === */}
           <div className="hidden md:flex gap-8 items-center">
-            <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
+            <p
+              onClick={() => {
+                scrollTo("home");
+                setIsOpen(false);
+              }}
+              className="cursor-pointer hover:text-gray-400 transition-colors duration-300"
+            >
+              Home
+            </p>
+            <p
+              onClick={() => {
+                scrollTo("features");
+                setIsOpen(false);
+              }}
+              className="cursor-pointer hover:text-gray-400 transition-colors duration-300"
+            >
+              Features
+            </p>
+            <p
+              onClick={() => {
+                scrollTo("partners");
+                setIsOpen(false);
+              }}
+              className="cursor-pointer hover:text-gray-400 transition-colors duration-300"
+            >
               Partners
             </p>
-            <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
+            <p
+              onClick={() => {
+                scrollTo("demo");
+                setIsOpen(false);
+              }}
+              className="cursor-pointer hover:text-gray-400 transition-colors duration-300"
+            >
               Demo
             </p>
-            <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
+            <p
+              onClick={() => {
+                scrollTo("pricing");
+                setIsOpen(false);
+              }}
+              className="cursor-pointer hover:text-gray-400 transition-colors duration-300"
+            >
               Pricing
-            </p>
-            <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
-              Contact
             </p>
           </div>
           <div className="hidden md:flex text-white">
@@ -61,10 +96,47 @@ export default function Header() {
               ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         >
           <div className="flex flex-col gap-8 text-center mb-8">
-            <p>Partners</p>
-            <p>Demo</p>
-            <p>Pricing</p>
-            <p>Contact</p>
+            <p
+              onClick={() => {
+                scrollTo("home");
+                setIsOpen(false);
+              }}
+              className="cursor-pointer hover:text-gray-400 transition-colors duration-300"
+            >
+              Home
+            </p>
+            <p
+              onClick={() => {
+                scrollTo("features");
+                setIsOpen(false);
+              }}
+            >
+              Features
+            </p>
+            <p
+              onClick={() => {
+                scrollTo("partners");
+                setIsOpen(false);
+              }}
+            >
+              Partners
+            </p>
+            <p
+              onClick={() => {
+                scrollTo("demo");
+                setIsOpen(false);
+              }}
+            >
+              Demo
+            </p>
+            <p
+              onClick={() => {
+                scrollTo("pricing");
+                setIsOpen(false);
+              }}
+            >
+              Pricing
+            </p>
           </div>
 
           <Button text={"Login"} className="w-[75%] h-14" />

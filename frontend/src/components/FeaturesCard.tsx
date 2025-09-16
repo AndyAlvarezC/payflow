@@ -6,7 +6,7 @@ type CardHighlightsTypes = {
   text: string;
 };
 
-export default function CardHighlights({
+export default function FeaturesCard({
   icon: Icon,
   title,
   text,
