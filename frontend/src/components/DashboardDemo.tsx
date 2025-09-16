@@ -12,7 +12,6 @@ import {
 } from "recharts";
 import {
   TrendingUp,
-  TrendingDown,
   DollarSign,
   CreditCard,
   Wallet,
