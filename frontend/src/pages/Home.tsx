@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 export default function Home() {
   return (
-      <main className="pt-32 md:pt-48 flex flex-col items-center justify-center text-center relative z-10">
+      <main className="pt-24 md:pt-48 flex flex-col items-center justify-center text-center relative z-10">
         <h1
           className="text-3xl md:text-5xl font-extrabold leading-tight text-metallic-gradient"
         >
@@ -16,7 +16,7 @@ export default function Home() {
         <Card />
 
         <div className=" md:pt-12">
-          <Button text="Comienza Ahora" className="w-48 h-14 text-lg" />
+          <Button text="Comienza Ahora" className="w-60 h-20 text-lg" />
         </div>
       </main>
   );

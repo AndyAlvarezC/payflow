@@ -10,7 +10,7 @@ import { CiLock } from "react-icons/ci";
 
 export default function Trust() {
   return (
-    <section className="flex text-center m-auto min-h-screen md:min-h-2/3 pt-16 md:pt-36 w-full">
+    <section className="flex text-center m-auto min-h-screen md:min-h-2/3 pt-16 md:pt-48 w-full">
       <div className="w-full md:px-35">
         <h2 className="px-10 font-extrabold text-metallic-gradient text-2xl md:text-4xl p-4 md:w-1/3 md:text-left">
           Confiado por miles de clientes y partners

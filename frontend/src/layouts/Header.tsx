@@ -36,13 +36,13 @@ export default function Header() {
           {/* === Menú desktop === */}
           <div className="hidden md:flex gap-8 items-center">
             <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
-              Features
+              Partners
+            </p>
+            <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
+              Demo
             </p>
             <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
               Pricing
-            </p>
-            <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
-              Testimonials
             </p>
             <p className="cursor-pointer hover:text-gray-400 transition-colors duration-300">
               Contact
@@ -61,9 +61,9 @@ export default function Header() {
               ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         >
           <div className="flex flex-col gap-8 text-center mb-8">
-            <p>Features</p>
+            <p>Partners</p>
+            <p>Demo</p>
             <p>Pricing</p>
-            <p>Testimonials</p>
             <p>Contact</p>
           </div>
 
