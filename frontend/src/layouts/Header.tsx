@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo/logo.svg";
 import Button from "../components/Button";
 
 export default function Header() {

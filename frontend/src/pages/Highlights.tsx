@@ -6,7 +6,7 @@ import { CiGlobe } from "react-icons/ci";
 
 export default function Highlights() {
   return (
-    <div className="pt-16 md:pt-32 flex flex-col md:flex-row md:w-[80%] md:m-auto items-center justify-center min-h-screen md:min-h-1/2 gap-6">
+    <section className="pt-16 md:pt-32 flex flex-col md:flex-row md:w-[80%] md:m-auto items-center justify-center min-h-screen md:min-h-1/2 gap-6">
       <CardHighlights
         icon={IoRocketOutline}
         title="Rápido"
@@ -27,6 +27,6 @@ export default function Highlights() {
         title="Siempre conectado"
         text="Disponible donde quieras, cuando quieras"
       />
-    </div>
+    </section>
   );
 }

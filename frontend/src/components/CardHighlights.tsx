@@ -13,7 +13,8 @@ export default function CardHighlights({
 }: CardHighlightsTypes) {
   return (
     <div className=" flex flex-col justify-between group relative w-[80%] md:w-1/2 min-h-12 md:h-42
-      rounded-2xl p-6 backdrop-blur-md bg-white/[0.08] border border-white/[0.15] hover:bg-white/[0.12] hover:border-white/[0.25] transition-all duration-300 shadow-2xl hover:shadow-blue-500/10">
+      rounded-2xl p-6 backdrop-blur-md bg-white/[0.08] border border-white/[0.15] hover:bg-white/[0.12] hover:border-white/[0.25]
+      transition-all duration-300 shadow-2xl hover:shadow-blue-500/10">
       <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/[0.1] via-transparent to-transparent opacity-50"></div>
       <div className="absolute top-0 left-1/4 right-1/4 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
 
