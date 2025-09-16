@@ -2,6 +2,7 @@ import Header from "./layouts/Header"
 import Home from "./pages/Home";
 import Highlights from "./pages/Highlights";
 import Trust from "./pages/Trust";
+import Demo from "./pages/Demo";
 import "./styles/index.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Highlights />
       <Trust />
+      <Demo />
     </>
   );
 }

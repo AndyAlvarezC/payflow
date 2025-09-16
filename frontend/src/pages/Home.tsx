@@ -9,13 +9,13 @@ export default function Home() {
         >
           Fintech inteligente para tu tranquilidad financiera
         </h1>
-        <h2 className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl font-bold">
+        <h2 className="pt-6 text-lg md:text-xl text-gray-300 max-w-2xl font-bold">
           Visualiza y controla tus finanzas de manera rápida, segura y sencilla.
         </h2>
 
         <Card />
 
-        <div className=" md:mt-12">
+        <div className=" md:pt-12">
           <Button text="Comienza Ahora" className="w-48 h-14 text-lg" />
         </div>
       </main>
