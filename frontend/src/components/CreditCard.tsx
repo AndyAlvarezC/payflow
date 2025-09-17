@@ -65,7 +65,7 @@ const CreditCard: React.FC = () => {
       ></div>
 
       <div className="absolute inset-0 opacity-20">
-        <svg className="w-full h-full" viewBox="0 0 400 300">
+        <svg className="w-full md:h-full" viewBox="0 0 400 300">
           <defs>
             <linearGradient
               id="subtleGradient"

@@ -5,7 +5,6 @@ export default function PricingCard() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-12">
       {" "}
-      {/* Eliminé space-y-12 */}
       {plans.map((plan, index) => {
         const IconComponent = plan.icon;
         return (
@@ -45,7 +44,6 @@ export default function PricingCard() {
 
             <ul className="space-y-4 mb-8 flex-grow">
               {" "}
-              {/* Agregué flex-grow */}
               {plan.features.map((feature, featureIndex) => (
                 <li key={featureIndex} className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center mt-0.5 border border-green-500/30">

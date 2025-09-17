@@ -16,7 +16,7 @@ export default function Home() {
         <CreditCard />
 
         <div className=" md:pt-12">
-          <Button text="Comienza Ahora" className="w-60 h-20 text-lg" />
+          <Button text="Comienza Ahora" className="w-60 h-16 md:h-20 text-lg" />
         </div>
       </main>
   );

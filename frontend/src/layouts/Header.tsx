@@ -2,7 +2,7 @@ import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import logo from "../assets/logo/logo.svg";
 import Button from "../components/Button";
-import useScrollTo from "../hooks/useScrollTo";
+import useScrollTo from "../utils/useScrollTo";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

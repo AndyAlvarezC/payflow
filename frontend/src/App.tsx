@@ -4,7 +4,7 @@ import Highlights from "./pages/Features";
 import Partners from "./pages/Partners";
 import Demo from "./pages/Demo";
 import Pricing from "./pages/Pricing";
-import Footer from "./pages/Footer";
+import Footer from "./layouts/Footer";
 import "./styles/index.css";
 
 function App() {
