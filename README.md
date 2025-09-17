@@ -52,7 +52,7 @@ http://localhost:5173
 
 ## ✨ Main Features
 
-- Responsive landing page with modern design
-- Clean folder structure and best coding practices
-- Ready to integrate backend and user area soon
-- Optimized for desktop and mobile devices
+- **Responsive landing page** with modern design  
+- **Clean folder structure** and best coding practices  
+- **Ready to integrate backend** and user area soon  
+- **Optimized for desktop and mobile devices**
